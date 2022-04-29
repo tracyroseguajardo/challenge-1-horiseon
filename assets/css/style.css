@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,17 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header */
 
 header {
     padding: 20px;
@@ -46,6 +59,8 @@ figure img {
     width: 100%;
     margin-bottom: 25px;
 }
+
+/* Main Content */
 
 main {
     width: 75%;
@@ -109,14 +124,7 @@ article {
     max-width: 150px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Footer */
 
 footer {
     padding: 30px;
